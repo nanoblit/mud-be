@@ -1,0 +1,29 @@
+{
+  "name": "mud-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./src/index.ts",
+    "prod": "tsc && node ./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanoblit/mud-be.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nanoblit/mud-be/issues"
+  },
+  "homepage": "https://github.com/nanoblit/mud-be#readme",
+  "dependencies": {
+    "@types/express": "^4.17.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "express": "^4.17.1",
+    "ts-node-dev": "^1.0.0-pre.41",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {}
+}
